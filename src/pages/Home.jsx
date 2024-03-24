@@ -8,42 +8,52 @@ const Home = () => {
     return (
         <>
             <Header/>
-            <Logo/>
-            <h2>Oieee! Sou a Bruna! :)</h2>
-            <p>Tenho 19 anos, estou no 5º semestre de Sistemas de Informação na USP de São Carlos e estou trilhando carreira na área de <strong>Backend Developer</strong></p>
-            <Titulo texto="Habilidades"/>
-            <ul>
-                <li>Figma</li>
-                <li>Trello</li>
-                <li>Notion</li>
-                <li>Java</li>
-                <li>Kotlin</li>
-                <li>Javascript</li>
-                <li>Typescript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>React</li>
-                <li>SQL</li>
-                <li>MySql</li>
-                <li>PostgreSQL</li>
-                <li>MongoDB</li>
-                <li>DynamoDB</li>
-                <li>AWS</li>
-                <li>Spring</li>
-                <li>Intellij</li>
-                <li>VSCode</li>
-                <li>Kafka</li>
-                <li>Python</li>
-                <li>JUnit</li>
-                <li>Kotest</li>
-                <li>Jest</li>
-                <li>C</li>
-                <li>Scrum</li>
-                <li>Excel</li>
-                <li>Canva</li>
-                <li>PowerPoint</li>
-                <li>Inglês Intermediário</li>
-            </ul>
+            <div class="capa-home">
+                <Logo/>
+                <div class="capa-home-texto">
+                    <h2 class="titulo-capa">Oieee! Sou a Bruna! :)</h2>
+                    <p>Tenho 19 anos, estou no 5º semestre de Sistemas de Informação na USP de São Carlos e estou trilhando carreira na área de <strong>Backend Developer</strong></p>
+                </div>
+            </div>
+            <div class="habilidades-container">
+                <Titulo texto="Habilidades"/>
+                <table class="habilidades-table">
+                    <td>
+                        <tr>Figma</tr>
+                        <tr>Trello</tr>
+                        <tr>Notion</tr>
+                        <tr>Java</tr>
+                        <tr>Kotlin</tr>
+                        <tr>Javascript</tr>
+                        <tr>Typescript</tr>
+                        <tr>HTML</tr>
+                        <tr>CSS</tr>
+                        <tr>React</tr>
+                        <tr>SQL</tr>
+                        <tr>MySql</tr>
+                        <tr>PostgreSQL</tr>
+                        <tr>MongoDB</tr>
+                        <tr>DynamoDB</tr>
+                    </td>
+                    <td>
+                        <tr>AWS</tr>
+                        <tr>Spring</tr>
+                        <tr>Intellij</tr>
+                        <tr>VSCode</tr>
+                        <tr>Kafka</tr>
+                        <tr>Python</tr>
+                        <tr>JUnit</tr>
+                        <tr>Kotest</tr>
+                        <tr>Jest</tr>
+                        <tr>C</tr>
+                        <tr>Scrum</tr>
+                        <tr>Excel</tr>
+                        <tr>Canva</tr>
+                        <tr>PowerPoint</tr>
+                        <tr>Inglês Intermediário</tr>
+                    </td>
+                </table>
+                </div>
             <Footer/>
         </>
     )

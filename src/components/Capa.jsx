@@ -5,7 +5,7 @@ const Capa = (props) => {
     return (
         <>
         <div> 
-            <h2>{props.titulo}</h2>
+            <h2 class="titulo-capa">{props.titulo}</h2>
             <Logo/>  
         </div>     
         </>

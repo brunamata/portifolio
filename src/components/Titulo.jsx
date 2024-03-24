@@ -5,7 +5,7 @@ const Titulo = (props) => {
 
     return (
         <>
-            <h2>{texto}</h2>    
+            <h2 class="titulo">{texto}</h2>    
         </>
     )
 }
