@@ -3,6 +3,7 @@ import Capa from '../components/Capa';
 import Titulo from '../components/Titulo';
 import Botao from '../components/Botao';
 import Logo from '../components/Logo';
+import Img from '../components/Img';
 import Footer from '../components/Footer';
 
 const SobreMim = () => {
@@ -37,20 +38,27 @@ const SobreMim = () => {
             </div>
             <div class="galeria-container">
                 <Titulo texto="Galeria"/>
-                <p>Porque imagens falam mais que mil palavras</p>
+                <p class="galeria-subtitulo">Porque imagens falam mais que mil palavras</p>
                 <div>
-                    <h2>Basquete</h2>
-                    <Logo/>
-                    <Logo/>
-                    <Logo/>
+                    <h2 class="fotos-titulo">Basquete</h2>
+                    <Img src="fotos_basquete.png" alt="3 fotos jogando basquete"/>
                     <p class="legenda">Competindo pela atlética da faculdade 💛🖤</p>
                 </div>
                 <div>
-                    <h2>Música</h2>
-                    <Logo/>
-                    <Logo/>
-                    <Logo/>
-                    <p class="legenda">Tocando piano e órgão na igreja</p>
+                    <h2  class="fotos-titulo">Música</h2>
+                    <div class="music-galery">
+                        <video height="400" controls>
+                            <source src="video_piano.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <Img src="foto_piano.png" alt="eu com 13 anos tocando piano"/>
+                    </div>
+                    <p class="legenda">Tocando piano em um dia na faculdade e foto mais antiga com 13 anos</p>
+                </div>
+                <div>
+                    <h2 class="fotos-titulo">Momentos ❤️</h2>
+                    <Img src="fotos_momentos.png" alt="3 fotos descritas na legenda"/>
+                    <p class="legenda">Campanha do Agasalho | Encontro presencial do time GB <br/> em Curitiba | Apresentação de pitch no SheHacks (hackathon)</p>
                 </div>
             </div>
             <Footer/>

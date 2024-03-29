@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import Logo from '../components/Logo';
+import LogoForHome from '../components/LogoForHome';
 import Footer from '../components/Footer';
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
         <>
             <Header/>
             <div class="capa-home">
-                <Logo/>
+                <LogoForHome/>
                 <div class="capa-home-texto">
                     <h2 class="titulo-capa-home">Oieee! Sou a Bruna! :)</h2>
                     <p class="texto-capa-home">Tenho 19 anos, estou no 5º semestre de Sistemas de Informação na USP de São Carlos e estou trilhando carreira na área de <strong>Backend Developer</strong></p>

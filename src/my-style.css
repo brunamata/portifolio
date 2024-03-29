@@ -23,6 +23,26 @@ html {
     text-align: center;
   }
 
+  .logo{
+    height: 316px;
+  }
+
+  .titulo{
+    color: white;
+    margin-bottom: 40px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
   button {
     width: 500px;
     height: 60px;
@@ -74,30 +94,17 @@ html {
     justify-content: space-between;
   }
 
-  a {
-    color: white;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-
 
 /* -------------- Capa Home ---------------- */
-
-.logo{
-  height: 316px;
-  margin-left: 60px;
-}
 
 .titulo-capa-home {
   font-size: 36px;
   font-weight: bold;
   text-align: left;
+}
+
+.logo-home {
+  margin-left: 90px;
 }
 
 .capa-home{
@@ -110,8 +117,8 @@ html {
 
 .capa-home-texto{
   color: white;
-  height: 100px;
-  margin: auto 60px;
+  height: 120px;
+  padding-right: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -185,10 +192,6 @@ td {
   justify-content: center;
 }
 
-.logo{
-  margin: 0 auto;
-}
-
 /* ----------- Sobre Mim Page ----------------- */
 
 .texto-sobre-mim{
@@ -198,12 +201,6 @@ td {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.titulo{
-  color: white;
-  font-weight: bold;
-  margin-bottom: 40px;
 }
 
 .textao{
@@ -223,4 +220,45 @@ td {
 
 .galeria-container{
   background-color: var(--roxo-claro);
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.galeria-subtitulo {
+  text-align: center;
+  position: relative;
+  top: -30px;
+  color: white;
+}
+
+.fotos-titulo {
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+
+.legenda{
+  color: white;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.music-galery {
+  width: 105%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  margin-right: 10px;
+}
+
+#momentos-img {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
