@@ -1,6 +1,5 @@
 import Header from '../components/Header';
 import Logo from '../components/Logo';
-import Titulo from '../components/Titulo';
 import Footer from '../components/Footer';
 
 const Home = () => {
@@ -11,12 +10,12 @@ const Home = () => {
             <div class="capa-home">
                 <Logo/>
                 <div class="capa-home-texto">
-                    <h2 class="titulo-capa">Oieee! Sou a Bruna! :)</h2>
-                    <p>Tenho 19 anos, estou no 5º semestre de Sistemas de Informação na USP de São Carlos e estou trilhando carreira na área de <strong>Backend Developer</strong></p>
+                    <h2 class="titulo-capa-home">Oieee! Sou a Bruna! :)</h2>
+                    <p class="texto-capa-home">Tenho 19 anos, estou no 5º semestre de Sistemas de Informação na USP de São Carlos e estou trilhando carreira na área de <strong>Backend Developer</strong></p>
                 </div>
             </div>
             <div class="habilidades-container">
-                <Titulo texto="Habilidades"/>
+                <h2 class="titulo-habilidades"> Habilidades </h2>
                 <table class="habilidades-table">
                     <td>
                         <tr>Figma</tr>
