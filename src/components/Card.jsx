@@ -8,13 +8,15 @@ const Card = (props) => {
 
     return (
         <>
-            <div>
-                <div class="visivel">
-                    <h3>{nome}</h3>
-                    <p class="tecnologias">{tecnologias}</p>
+            <div class="card-container">
+                <div class="card-topic">
+                    <h3 class="card-nome-projeto">{nome}</h3>
+                    <p class="card-tecnologias">{tecnologias}</p>
                 </div>
-                <p class="descricao">{descricao}</p>
-                <a href={url}>Link do Github</a>
+                <div class="card-content">
+                    <p class="card-descricao">{descricao}</p>
+                    <a class="card-github" href={url}>Link do Github</a>
+                </div>
             </div>
         </>
     )

@@ -9,7 +9,7 @@ const Projetos = () => {
         <>
             <Header/>
             <Capa titulo="Meus Projetos"/>
-            <div>
+            <div class="gradiente-container">
                 <Card 
                 titulo="Gerador Automático de Certificados"
                 tecnologias="Python"

@@ -297,3 +297,48 @@ video {
   width: 50%;
   line-height: 24px;
 }
+
+/* --------------- Projetos page ------------------ */
+
+.card-container {
+  background-color: var(--roxo-claro);
+  width: 70%;
+  margin: 40px 0px;
+  border-radius: 20px;
+}
+
+.card-topic {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.card-nome-projeto {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-tecnologias {
+  color: var(--roxo);
+  font-size: 13px;
+}
+
+.card-content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-descricao {
+  color: var(--roxo);
+  font-weight: bold;
+  height: 80px;
+}
+
+.card-github {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
