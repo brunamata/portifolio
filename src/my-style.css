@@ -30,6 +30,7 @@ html {
   .titulo{
     color: white;
     margin-bottom: 40px;
+    margin-top: 40px;
   }
 
   a {
@@ -59,6 +60,23 @@ html {
     box-shadow: 4px 4px 8px rgb(43, 43, 43);
     font-weight: bold;
     cursor: pointer;
+  }
+
+  .gradiente-container{
+    background-image: linear-gradient(var(--roxo), var(--rosa));
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roxo-container{
+    background-color: var(--roxo-claro);
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   /* ------------- Cabeçalho ------------------ */
@@ -140,6 +158,7 @@ footer{
 
 .footer-text{
   text-align: center;
+  font-size: 16px;
   color: white;
   line-height: 56px;
 }
@@ -194,15 +213,6 @@ td {
 
 /* ----------- Sobre Mim Page ----------------- */
 
-.texto-sobre-mim{
-  background-image: linear-gradient(var(--roxo), var(--rosa));
-  padding: 50px 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .textao{
   color: white;
   padding: 0px 200px;
@@ -216,14 +226,6 @@ td {
 
 .textao-link {
   text-decoration: underline;
-}
-
-.galeria-container{
-  background-color: var(--roxo-claro);
-  padding: 50px 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .galeria-subtitulo {
@@ -256,9 +258,42 @@ video {
   margin-right: 10px;
 }
 
-#momentos-img {
-  width: 50%;
+/* ---------- Trajetoria Body -------------------- */
+
+.exp-data {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.exp-description {
+  color: white;
+  text-align: left;
+  margin-bottom: 36px;
+  line-height: 24px;
+}
+
+.conquista-container{
+  padding: 0px 200px;
+}
+
+.exp-container {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+}
+
+.entre-outros-container {
+  height: 260px;
+  display: flex;
+  align-items: center;
   justify-content: center;
+}
+
+.entre-outros-texto {
+  color: var(--roxo-claro);
+  width: 50%;
+  line-height: 24px;
 }

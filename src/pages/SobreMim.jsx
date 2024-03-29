@@ -2,7 +2,6 @@ import Header from '../components/Header';
 import Capa from '../components/Capa';
 import Titulo from '../components/Titulo';
 import Botao from '../components/Botao';
-import Logo from '../components/Logo';
 import Img from '../components/Img';
 import Footer from '../components/Footer';
 
@@ -12,7 +11,7 @@ const SobreMim = () => {
         <>
             <Header/>
             <Capa titulo="Sobre Mim"/>
-            <div class="texto-sobre-mim">
+            <div class="texto-sobre-mim gradiente-container">
                 <Titulo texto="Quem sou eu?"/>
                 <div class="textao">
                     <p class="textao-line">
@@ -36,7 +35,7 @@ const SobreMim = () => {
                 </div>
                 <Botao texto="Entrar em Contato"/>
             </div>
-            <div class="galeria-container">
+            <div class="galeria-container roxo-container">
                 <Titulo texto="Galeria"/>
                 <p class="galeria-subtitulo">Porque imagens falam mais que mil palavras</p>
                 <div>
