@@ -1,0 +1,226 @@
+/* Variáveis */
+:root {
+  --verde-claro: #35937E;
+  --roxo: #774069;
+  --rosa: #B82544;
+  --roxo-claro: #9B89B3;
+}
+
+
+html {
+    font-family: "Montserrat";
+  }
+
+  /* ------------ Generics --------------- */
+
+  p {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  button {
+    width: 500px;
+    height: 60px;
+    background-color: var(--verde-claro);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(43, 43, 43);
+    font-size: large;
+  }
+
+  button:hover{
+    background-color:#1f7563;
+    box-shadow: 4px 4px 8px rgb(43, 43, 43);
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  /* ------------- Cabeçalho ------------------ */
+  
+  header {
+    background-color: var(--verde-claro);
+    margin: 0;
+    width: 100%;
+    height: 88px;
+    /* position: fixed; */
+  }
+
+  .center-menu{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+    justify-content: space-between;
+    margin: auto auto;
+  }
+
+  .logo-foto{
+    height: 57px;
+  }
+
+  .menu{
+    width: 70%;
+    margin-right: 10%;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+
+
+/* -------------- Capa Home ---------------- */
+
+.logo{
+  height: 316px;
+  margin-left: 60px;
+}
+
+.titulo-capa-home {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.capa-home{
+  height: 600px;
+  width: 100%;
+  background-image: url("../public/Capa.png");
+  display: flex;
+  align-items: center;
+}
+
+.capa-home-texto{
+  color: white;
+  height: 100px;
+  margin: auto 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/* ---------- Footer -------------- */
+
+footer{
+  background-color: var(--roxo);
+  width: 100%;
+  height: 56px;
+}
+
+.footer-text-container{
+  height: 100%;
+}
+
+
+.footer-text{
+  text-align: center;
+  color: white;
+  line-height: 56px;
+}
+
+
+/* ----------- home body - habilidades ------------ */
+
+.habilidades-container{
+  color: var(--roxo);
+}
+
+.habilidades-table {
+  margin: 60px auto;
+}
+
+tr {
+  line-height: 30px;
+  font-weight: bold;
+}
+
+td {
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    background-clip: padding-box;
+}
+
+.titulo-habilidades {
+  margin-top: 40px;
+}
+
+/* -------------- CAPA ---------------------- */
+
+.capa-container{
+  background-color: var(--roxo);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo-capa{
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  margin: 0 auto;
+}
+
+/* ----------- Sobre Mim Page ----------------- */
+
+.texto-sobre-mim{
+  background-image: linear-gradient(var(--roxo), var(--rosa));
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo{
+  color: white;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.textao{
+  color: white;
+  padding: 0px 200px;
+}
+
+.textao-line {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 60px;
+}
+
+.textao-link {
+  text-decoration: underline;
+}
+
+.galeria-container{
+  background-color: var(--roxo-claro);
+}
