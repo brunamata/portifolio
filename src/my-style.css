@@ -45,8 +45,8 @@ html {
   }
 
   button {
-    width: 500px;
-    height: 60px;
+    width: 400px;
+    height: 40px;
     background-color: var(--verde-claro);
     color: white;
     border: none;
@@ -341,4 +341,60 @@ video {
   text-align: center;
   color: white;
   font-weight: bold;
+}
+
+/* ------------ Contato Page -------------- */
+
+.icones {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: -60px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-representation {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+input, textarea {
+  width: 900px;
+  margin: 20px 0px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+input::placeholder, textarea::placeholder{
+  color: var(--rosa);
+  font-weight: bold;
+}
+
+input:focus, textarea:focus{
+  border-style: none;
+  border-color: var(--verde-claro);
+  box-shadow: 10px 10px var(--roxo-claro);
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contato-agradecimento-container{
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 50%;
 }

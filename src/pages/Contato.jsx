@@ -10,23 +10,23 @@ const Contato = () => {
         <>
             <Header/>
             <Capa titulo="Contato | Fale comigo :)"/>
-            <div>
+            <div class="gradiente-container">
                 <div class="icones">
-                    <Icone url="../../public/insta_logo.png"/>
-                    <Icone url="../../public/insta_logo.png"/>
-                    <Icone url="../../public/insta_logo.png"/>
-                    <Icone url="../../public/insta_logo.png"/>
-                    <Icone url="../../public/insta_logo.png"/>
+                    <Icone src="logos/insta_logo.png"/>
+                    <Icone src="logos/gmail_logo.png"/>
+                    <Icone src="logos/linkedin_logo.png"/>
+                    <Icone src="logos/github_logo.png"/>
+                    <Icone src="logos/whats_logo.png"/>
                 </div>
-                <div>
-                    <form>
-                        <input placeholder="Seu Nome *" required></input>
-                        <input placeholder="Seu Email *" required></input>
+                <div class="form-container">
+                    <form class="form-representation">
+                        <input placeholder="Seu Nome *" type="text" required></input>
+                        <input placeholder="Seu Email *" type="email" required></input>
                         <textarea placeholder='Digite sua Mensagem :)'></textarea>
                     </form>
                     <Botao texto="Enviar"/>
                 </div>
-                <div>
+                <div class="contato-agradecimento-container">
                     <p>
                         Obrigada! Espero que tenha gostado do meu miniportifólio! Qualquer feedback pode ser enviado na mensagem acima
                     </p>
