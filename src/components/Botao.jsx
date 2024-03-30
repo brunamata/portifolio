@@ -3,7 +3,7 @@ const Botao = (props) => {
 
     return (
         <>
-            <button>{props.texto}</button>   
+            <button class="button">{props.texto}</button>   
         </>
     )
 }

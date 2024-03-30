@@ -44,7 +44,7 @@ html {
     font-weight: bold;
   }
 
-  button {
+  .button {
     width: 400px;
     height: 40px;
     background-color: var(--verde-claro);
@@ -55,7 +55,7 @@ html {
     font-size: large;
   }
 
-  button:hover{
+  .button:hover{
     background-color:#1f7563;
     box-shadow: 4px 4px 8px rgb(43, 43, 43);
     font-weight: bold;
@@ -303,14 +303,32 @@ video {
 .card-container {
   background-color: var(--roxo-claro);
   width: 70%;
-  margin: 40px 0px;
+  margin: 20px 0px;
   border-radius: 20px;
+}
+
+.card-top-button{
+  display: flex;
+}
+
+.card-button{
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.card-button:hover {
+  font-size: 22px;
+  cursor: pointer;
 }
 
 .card-topic {
   display: flex;
   justify-content: space-between;
   padding: 15px;
+  width: 100%;
 }
 
 .card-nome-projeto {
@@ -341,6 +359,10 @@ video {
   text-align: center;
   color: white;
   font-weight: bold;
+}
+
+.card-hidden{
+  display: none;
 }
 
 /* ------------ Contato Page -------------- */
