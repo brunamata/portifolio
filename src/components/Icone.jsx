@@ -3,7 +3,7 @@ const Icone = (props) => {
 
     return (
         <>
-            <a class="icone" href="https://www.instagram.com/brunamata.04/"><img alt="icone" src={props.src}></img></a>   
+            <a class="icone" href={props.link}><img alt="icone" src={props.src}></img></a>   
         </>
     )
 }

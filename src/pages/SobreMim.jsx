@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import Capa from '../components/Capa';
 import Titulo from '../components/Titulo';
-import Botao from '../components/Botao';
+import { Link } from 'react-router-dom';
 import Img from '../components/Img';
 import Footer from '../components/Footer';
 
@@ -33,7 +33,7 @@ const SobreMim = () => {
                         Se quiser conversar melhor ou só chamar pra um racha de basquete ou pra uma partidinha de minecraft, clique em <a class="textao-link" href="/contato">Fale Comigo</a>. Vou adorar me conectar com você! :) 
                     </p>
                 </div>
-                <Botao texto="Entrar em Contato"/>
+                <Link className="button" to={"/contato"}>Entrar em Contato</Link>
             </div>
             <div class="galeria-container roxo-container">
                 <Titulo texto="Galeria"/>
