@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {HashRouter, Route, Routes} from 'react-router-dom';
 import Home from './pages/Home';
 import SobreMim from './pages/SobreMim';
 import Trajetoria from './pages/Trajetoria';
@@ -7,7 +7,7 @@ import Contato from './pages/Contato';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/sobre-mim" element={<SobreMim/>} />
@@ -15,7 +15,7 @@ function App() {
       <Route path="/meus-projetos" element={<Projetos/>} />
       <Route path="/contato" element={<Contato/>} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
   );
 }
 
